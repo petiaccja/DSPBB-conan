@@ -46,6 +46,7 @@ class DSPBBConan(ConanFile):
             
     def package(self):
         self.copy("*.hpp", dst=os.path.join("include", "dspbb"), src=os.path.join(self._source_subfolder, "include", "dspbb"))
+        self.copy("*.h", dst=os.path.join("include", "dspbb"), src=os.path.join(self._source_subfolder, "include", "dspbb"))
         self.copy("LICENSE.md", dst="licenses", src=self._source_subfolder)
 
     def package_id(self):
