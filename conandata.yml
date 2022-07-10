@@ -2,7 +2,13 @@ sources:
   "0.9.0":
     url: "https://github.com/petiaccja/DSPBB/archive/v0.9.0.tar.gz"
     sha256: "133A8F94431DF27FB5F4535943A44D4D81F92BA7F97ADAE065707B171B3F8C69"
+  "0.9.1":
+    url: "https://github.com/petiaccja/DSPBB/archive/v0.9.1.tar.gz"
+    sha256: "4250A8D066E79EF6FFDA3C681BCA8B88D52593854E20B52B8223C0EDCCECE662"
 requirements:
   "0.9.0":
+    - "xsimd/8.0.3"
+    - "eigen/3.4.0"
+  "0.9.1":
     - "xsimd/8.0.3"
     - "eigen/3.4.0"
